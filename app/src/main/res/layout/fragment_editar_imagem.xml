@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".views.EditarImagemFragment"
+        android:background="@color/white"
+>
+
+
+    <LinearLayout
+            android:id="@+id/lntGrande"
+        android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:orientation="vertical">
+
+        <LinearLayout
+                android:id="@+id/lntMedioCima"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+            <LinearLayout
+                    android:id="@+id/lntPequinoErro"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                <ImageView
+                        android:src="@drawable/erros_icon"
+                        android:layout_width="match_parent"
+                        android:layout_height="35dp" android:id="@+id/imageView5"/>
+                <TextView
+                        android:id="@+id/txtErro"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Erros"
+                        android:textSize="25sp"
+                        android:textColor="@color/black"
+                        android:gravity="center"/>
+
+                <TextView
+                        android:id="@+id/txtErroValor"
+                        android:layout_marginTop="20dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="10"
+                        android:textSize="40sp"
+                        android:textColor="@color/black"
+                        android:gravity="center"/>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                    android:id="@+id/lntPequinoErroCorrigido"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                <ImageView
+                        android:src="@drawable/erros_checked_icon"
+                        android:layout_width="match_parent"
+                        android:layout_height="35dp" android:id="@+id/imageView6"/>
+                <TextView
+                        android:id="@+id/txtErroCorrigido"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Erros \n corrigidos"
+                        android:textSize="25sp"
+                        android:textColor="@color/black"
+                        android:gravity="center"/>
+
+                <TextView
+                        android:id="@+id/txtErroCorrigidoValor"
+                        android:layout_marginTop="20dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="10"
+                        android:textSize="40sp"
+                        android:textColor="@color/black"
+                        android:gravity="center"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+                android:id="@+id/lntMedioBaixo"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+            <LinearLayout
+                    android:id="@+id/lntPequinoAlerta"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                <ImageView
+                        android:src="@drawable/alerta_icon"
+                        android:layout_width="match_parent"
+                        android:layout_height="35dp" android:id="@+id/imageView4"/>
+                <TextView
+                        android:id="@+id/txtAlerta"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Alertas"
+                        android:textSize="25sp"
+                        android:textColor="@color/black"
+                        android:gravity="center"/>
+
+                <TextView
+                        android:id="@+id/txtAlertaValor"
+                        android:layout_marginTop="20dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="10"
+                        android:textSize="40sp"
+                        android:textColor="@color/black"
+                        android:gravity="center"/>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                    android:id="@+id/lntPequinoEstrategia"
+                    android:layout_width="match_parent"
+                    android:layout_height="364dp"
+                    android:layout_weight="1"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                <ImageView
+                        android:src="@drawable/strategy_icon"
+                        android:layout_width="match_parent"
+                        android:layout_height="35dp" android:id="@+id/imageView7"/>
+                <TextView
+                        android:id="@+id/txtEstrategia"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Estratégias"
+                        android:textSize="25sp"
+                        android:textColor="@color/black"
+                        android:gravity="center"/>
+
+                <TextView
+                        android:id="@+id/txtEstrategiaValor"
+                        android:layout_marginTop="20dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="10"
+                        android:textSize="40sp"
+                        android:textColor="@color/black"
+                        android:gravity="center"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>
