@@ -17,7 +17,7 @@
             android:layout_height="wrap_content"
             android:textAlignment="center"
             android:textSize="30dp"
-            android:text="Serviços"
+            android:text="Status Alertas"
             android:textColor="@color/white"
             android:fontFamily="@font/titilliumweb_bold"
 
